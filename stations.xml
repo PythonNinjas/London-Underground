@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+   <Station id="Station">
+      <Latitude>Latitude</Latitude>
+      <Longitude>Longitude</Longitude>
+      <Line>Lines</Line>
+      <Zone>Zone</Zone>
+   </Station>
+   <Station id="Acton Town">
+      <Latitude>51.5025</Latitude>
+      <Longitude>-0.278126</Longitude>
+      <Line>[District,Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Aldgate">
+      <Latitude>51.51394</Latitude>
+      <Longitude>-0.07537</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Aldgate East">
+      <Latitude>51.51514</Latitude>
+      <Longitude>-0.07178</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Alperton">
+      <Latitude>51.54097</Latitude>
+      <Longitude>-0.30061</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Amersham">
+      <Latitude>51.67435</Latitude>
+      <Longitude>-0.60732</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>9</Zone>
+   </Station>
+   <Station id="Angel">
+      <Latitude>51.53253</Latitude>
+      <Longitude>-0.10579</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Archway">
+      <Latitude>51.56536</Latitude>
+      <Longitude>-0.13474</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Arnos Grove">
+      <Latitude>51.61625</Latitude>
+      <Longitude>-0.13355</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Arsenal">
+      <Latitude>51.55847</Latitude>
+      <Longitude>-0.10561</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Baker Street">
+      <Latitude>51.52265</Latitude>
+      <Longitude>-0.15704</Longitude>
+      <Line>[Circle, Hammersmith &amp; City, Jubilee, Bakerloo ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Balham">
+      <Latitude>51.44344113</Latitude>
+      <Longitude>-0.152945844</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Bank">
+      <Latitude>51.5134047</Latitude>
+      <Longitude>-0.08905843</Longitude>
+      <Line>[Central, Waterloo &amp; City ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Barbican">
+      <Latitude>51.520865</Latitude>
+      <Longitude>-0.097758</Longitude>
+      <Line>[Circle, Hammersmith &amp; City, Metropolitan ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Barking">
+      <Latitude>51.54079</Latitude>
+      <Longitude>+0.08018</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Barkingside">
+      <Latitude>51.58543</Latitude>
+      <Longitude>+0.08854</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Barons Court">
+      <Latitude>51.490281</Latitude>
+      <Longitude>-0.21434</Longitude>
+      <Line>[Piccadilly, District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Bayswater">
+      <Latitude>51.51224</Latitude>
+      <Longitude>-0.187569</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Becontree">
+      <Latitude>51.54029</Latitude>
+      <Longitude>+0.12620</Longitude>
+      <Line>[District ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Belsize Park">
+      <Latitude>51.55036</Latitude>
+      <Longitude>-0.16465</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Bermondsey">
+      <Latitude>51.49813</Latitude>
+      <Longitude>-0.0635</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Bethnal Green">
+      <Latitude>51.52718</Latitude>
+      <Longitude>-0.05504</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Blackfriars">
+      <Latitude>51.5114403</Latitude>
+      <Longitude>-0.1041905</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Blackhorse Road">
+      <Latitude>51.58698</Latitude>
+      <Longitude>-0.04104</Longitude>
+      <Line>[Victoria ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Bond Street">
+      <Latitude>51.51461</Latitude>
+      <Longitude>-0.14897</Longitude>
+      <Line>[Central, Jubilee ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Borough">
+      <Latitude>51.50095</Latitude>
+      <Longitude>-0.09446</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Boston Manor">
+      <Latitude>51.495371</Latitude>
+      <Longitude>-0.325573</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Bounds Green">
+      <Latitude>51.607</Latitude>
+      <Longitude>-0.12418</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Bow Road">
+      <Latitude>51.52709</Latitude>
+      <Longitude>-0.02482</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Brent Cross">
+      <Latitude>51.57693</Latitude>
+      <Longitude>-0.21414</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Brixton">
+      <Latitude>51.46239</Latitude>
+      <Longitude>-0.115421</Longitude>
+      <Line>[Victoria ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Bromley-by-Bow">
+      <Latitude>51.52466</Latitude>
+      <Longitude>-0.01282</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Buckhurst Hill">
+      <Latitude>51.62611</Latitude>
+      <Longitude>+0.04705</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Burnt Oak">
+      <Latitude>51.603</Latitude>
+      <Longitude>-0.26427</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Caledonian Road">
+      <Latitude>51.5485</Latitude>
+      <Longitude>-0.11802</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Camden Town">
+      <Latitude>51.5393</Latitude>
+      <Longitude>-0.14316</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Canada Water">
+      <Latitude>51.49787</Latitude>
+      <Longitude>-0.04967</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Canary Wharf">
+      <Latitude>51.50362</Latitude>
+      <Longitude>-0.01987</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Cannon Street">
+      <Latitude>51.51141</Latitude>
+      <Longitude>-0.09047</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Canons Park">
+      <Latitude>51.6081</Latitude>
+      <Longitude>-0.29487</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Chalfont &amp; Latimer">
+      <Latitude>51.66822</Latitude>
+      <Longitude>-0.56053</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>8</Zone>
+   </Station>
+   <Station id="Chalk Farm">
+      <Latitude>51.5439</Latitude>
+      <Longitude>-0.15384</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Chancery Lane">
+      <Latitude>51.51836</Latitude>
+      <Longitude>-0.11115</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Charing Cross">
+      <Latitude>51.507108</Latitude>
+      <Longitude>-0.122963</Longitude>
+      <Line>[Bakerloo, Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Chesham">
+      <Latitude>51.70522733</Latitude>
+      <Longitude>-0.610986426</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>9</Zone>
+   </Station>
+   <Station id="Chigwell">
+      <Latitude>51.61795</Latitude>
+      <Longitude>+0.07511</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Chiswick Park">
+      <Latitude>51.49466</Latitude>
+      <Longitude>-0.26866</Longitude>
+      <Line>[District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Chorleywood">
+      <Latitude>51.65429872</Latitude>
+      <Longitude>-0.518373353</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>7</Zone>
+   </Station>
+   <Station id="Clapham Common">
+      <Latitude>51.46156</Latitude>
+      <Longitude>-0.13802</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Clapham North">
+      <Latitude>51.46522</Latitude>
+      <Longitude>-0.1295</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Clapham South">
+      <Latitude>51.45292257</Latitude>
+      <Longitude>-0.147562148</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Cockfosters">
+      <Latitude>51.65117</Latitude>
+      <Longitude>-0.14811</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Colindale">
+      <Latitude>51.59556</Latitude>
+      <Longitude>-0.24996</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Colliers Wood">
+      <Latitude>51.41823649</Latitude>
+      <Longitude>-0.17800983</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Covent Garden">
+      <Latitude>51.51308</Latitude>
+      <Longitude>-0.12427</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Croxley">
+      <Latitude>51.64733268</Latitude>
+      <Longitude>-0.441479115</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>7</Zone>
+   </Station>
+   <Station id="Dagenham East">
+      <Latitude>51.54396</Latitude>
+      <Longitude>+0.16439</Longitude>
+      <Line>[District ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Dagenham Heathway">
+      <Latitude>51.54173</Latitude>
+      <Longitude>+0.14543</Longitude>
+      <Line>[District ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Debden">
+      <Latitude>51.64535</Latitude>
+      <Longitude>+0.08364</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Dollis Hill">
+      <Latitude>51.5525</Latitude>
+      <Longitude>-0.23884</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Ealing Broadway">
+      <Latitude>51.51482</Latitude>
+      <Longitude>-0.30118</Longitude>
+      <Line>[Central, District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Ealing Common">
+      <Latitude>51.50997</Latitude>
+      <Longitude>-0.28825</Longitude>
+      <Line>[District, Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Earl's Court">
+      <Latitude>51.491521</Latitude>
+      <Longitude>-0.193906</Longitude>
+      <Line>[District, Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="East Acton">
+      <Latitude>51.51753</Latitude>
+      <Longitude>-0.24827</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="East Finchley">
+      <Latitude>51.5872974705487</Latitude>
+      <Longitude>-0.16495632312818</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="East Ham">
+      <Latitude>51.53931</Latitude>
+      <Longitude>+0.05260</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="East Putney">
+      <Latitude>51.459015</Latitude>
+      <Longitude>-0.211138</Longitude>
+      <Line>[District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Eastcote">
+      <Latitude>51.57676</Latitude>
+      <Longitude>-0.39629</Longitude>
+      <Line>[Metropolitan, Piccadilly ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Edgware">
+      <Latitude>51.61385</Latitude>
+      <Longitude>-0.27515</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Edgware Road">
+      <Latitude>51.51956</Latitude>
+      <Longitude>-0.169068</Longitude>
+      <Line>[Bakerloo,Circle, District, Hammersmith &amp; City ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Elephant &amp; Castle">
+      <Latitude>51.49467</Latitude>
+      <Longitude>-0.10047</Longitude>
+      <Line>[Bakerloo, Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Elm Park">
+      <Latitude>51.54969</Latitude>
+      <Longitude>+0.19779</Longitude>
+      <Line>[District ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Embankment">
+      <Latitude>51.50717</Latitude>
+      <Longitude>-0.12195</Longitude>
+      <Line>[Bakerloo, Circle, District, Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Epping">
+      <Latitude>51.69365</Latitude>
+      <Longitude>+0.11495</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Euston">
+      <Latitude>51.52774</Latitude>
+      <Longitude>-0.13303</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Euston Square">
+      <Latitude>51.52584</Latitude>
+      <Longitude>-0.1357</Longitude>
+      <Line>[Circle, Hammersmith &amp; City, Metropolitan ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Fairlop">
+      <Latitude>51.59634</Latitude>
+      <Longitude>+0.09125</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Farringdon">
+      <Latitude>51.520362948</Latitude>
+      <Longitude>-0.105126482</Longitude>
+      <Line>[Circle, Hammersmith &amp; City, Metropolitan ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Finchley Central">
+      <Latitude>51.60102</Latitude>
+      <Longitude>-0.1924</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Finchley Road">
+      <Latitude>51.546701</Latitude>
+      <Longitude>-0.179867</Longitude>
+      <Line>[Jubilee, Metropolitan ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Finsbury Park">
+      <Latitude>51.56498</Latitude>
+      <Longitude>-0.10543</Longitude>
+      <Line>[Piccadilly, Victoria ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Fulham Broadway">
+      <Latitude>51.48033</Latitude>
+      <Longitude>-0.19488</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Gants Hill">
+      <Latitude>51.57649</Latitude>
+      <Longitude>0.06637</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Gloucester Road">
+      <Latitude>51.49408266</Latitude>
+      <Longitude>-0.17295341</Longitude>
+      <Line>[Circle, District, Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Golders Green">
+      <Latitude>51.57249</Latitude>
+      <Longitude>-0.1941</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Goldhawk Road">
+      <Latitude>51.501248</Latitude>
+      <Longitude>-0.226776</Longitude>
+      <Line>[Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Goodge Street">
+      <Latitude>51.5206</Latitude>
+      <Longitude>-0.13441</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Grange Hill">
+      <Latitude>51.61326</Latitude>
+      <Longitude>+0.09258</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Great Portland Street">
+      <Latitude>51.52391</Latitude>
+      <Longitude>-0.14397</Longitude>
+      <Line>[Circle, Hammersmith &amp; City, Metropolitan ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Greenford">
+      <Latitude>51.542346</Latitude>
+      <Longitude>-0.345903</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Gunnersbury">
+      <Latitude>51.49126844</Latitude>
+      <Longitude>-0.275554312</Longitude>
+      <Line>[District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Green Park">
+      <Latitude>51.50674</Latitude>
+      <Longitude>-0.14276</Longitude>
+      <Line>[Jubilee, Piccadilly, Victoria ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Hainault">
+      <Latitude>51.60288</Latitude>
+      <Longitude>+0.09332</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Hammersmith">
+      <Latitude>51.492328</Latitude>
+      <Longitude>-0.222825</Longitude>
+      <Line>[District, Piccadilly, Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Hampstead">
+      <Latitude>51.55645</Latitude>
+      <Longitude>-0.17851</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Hanger Lane">
+      <Latitude>51.53</Latitude>
+      <Longitude>-0.2929</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Harlesden">
+      <Latitude>51.53628278</Latitude>
+      <Longitude>-0.257622488</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Harrow &amp; Wealdstone">
+      <Latitude>51.59205973</Latitude>
+      <Longitude>-0.334725352</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Harrow-on-the-Hill">
+      <Latitude>51.579335</Latitude>
+      <Longitude>-0.337052</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Hatton Cross">
+      <Latitude>51.466988</Latitude>
+      <Longitude>-0.423035</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Heathrow Terminals 1-2-3">
+      <Latitude>51.4712899</Latitude>
+      <Longitude>-0.4527438</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Heathrow Terminal 4">
+      <Latitude>51.4594777</Latitude>
+      <Longitude>-0.44689658</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Hendon Central">
+      <Latitude>51.58346</Latitude>
+      <Longitude>-0.22653</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="High Barnet">
+      <Latitude>51.6506519031751</Latitude>
+      <Longitude>-0.194138165994553</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="High Street Kensington">
+      <Latitude>51.5003459144</Latitude>
+      <Longitude>-0.192351664</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Highbury &amp; Islington">
+      <Latitude>51.54502</Latitude>
+      <Longitude>-0.10752</Longitude>
+      <Line>[Victoria, Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Highgate">
+      <Latitude>51.57722</Latitude>
+      <Longitude>-0.14553</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Hillingdon">
+      <Latitude>51.55364</Latitude>
+      <Longitude>-0.45062</Longitude>
+      <Line>[Metropolitan, Piccadilly ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Holborn">
+      <Latitude>51.51711</Latitude>
+      <Longitude>-0.12055</Longitude>
+      <Line>[Central, Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Holland Park">
+      <Latitude>51.50722</Latitude>
+      <Longitude>-0.20553</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Holloway Road">
+      <Latitude>51.5529</Latitude>
+      <Longitude>-0.11278</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Hornchurch">
+      <Latitude>51.55387</Latitude>
+      <Longitude>+0.21797</Longitude>
+      <Line>[District ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Hounslow Central">
+      <Latitude>51.47129</Latitude>
+      <Longitude>-0.365853</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Hounslow East">
+      <Latitude>51.47354</Latitude>
+      <Longitude>-0.356</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Hounslow West">
+      <Latitude>51.473689</Latitude>
+      <Longitude>-0.386471</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Hyde Park Corner">
+      <Latitude>51.50313</Latitude>
+      <Longitude>-0.15278</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Ickenham">
+      <Latitude>51.56147</Latitude>
+      <Longitude>-0.44257</Longitude>
+      <Line>[Metropolitan, Piccadilly ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Kennington">
+      <Latitude>51.48823</Latitude>
+      <Longitude>-0.10587</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Kensal Green">
+      <Latitude>51.53060655</Latitude>
+      <Longitude>-0.224253545</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Kentish Town">
+      <Latitude>51.55046</Latitude>
+      <Longitude>-0.14067</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Kenton">
+      <Latitude>51.58173809</Latitude>
+      <Longitude>-0.316870809</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Kew Gardens">
+      <Latitude>51.47725641</Latitude>
+      <Longitude>-0.284980014</Longitude>
+      <Line>[District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Kilburn">
+      <Latitude>51.5471715</Latitude>
+      <Longitude>-0.205002</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Kilburn Park">
+      <Latitude>51.53495818</Latitude>
+      <Longitude>-0.193963023</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="King's Cross">
+      <Latitude>51.53057</Latitude>
+      <Longitude>-0.12399</Longitude>
+      <Line>[Piccadilly, Circle, Victoria, Northern, Metropolitan, Hammersmith &amp; City ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Kingsbury">
+      <Latitude>51.58422</Latitude>
+      <Longitude>-0.2788</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Knightsbridge">
+      <Latitude>51.50169</Latitude>
+      <Longitude>-0.1603</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Ladbroke Grove">
+      <Latitude>51.5173</Latitude>
+      <Longitude>-0.21114</Longitude>
+      <Line>[Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Lambeth North">
+      <Latitude>51.49894</Latitude>
+      <Longitude>-0.11216</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Lancaster Gate">
+      <Latitude>51.512083</Latitude>
+      <Longitude>-0.175067</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Latimer Road">
+      <Latitude>51.513125</Latitude>
+      <Longitude>-0.218428</Longitude>
+      <Line>[Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Leicester Square">
+      <Latitude>51.51148</Latitude>
+      <Longitude>-0.12849</Longitude>
+      <Line>[Northern, Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Leyton">
+      <Latitude>51.556483</Latitude>
+      <Longitude>-0.005669</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Leytonstone">
+      <Latitude>51.56828</Latitude>
+      <Longitude>0.00739</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Liverpool Street">
+      <Latitude>51.517675</Latitude>
+      <Longitude>-0.082458</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="London Bridge">
+      <Latitude>51.505353</Latitude>
+      <Longitude>-0.084826</Longitude>
+      <Line>[Jubilee, Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Loughton">
+      <Latitude>51.6417</Latitude>
+      <Longitude>+0.05583</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Maida Vale">
+      <Latitude>51.52989409</Latitude>
+      <Longitude>-0.185888819</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Manor House">
+      <Latitude>51.57038</Latitude>
+      <Longitude>-0.09601</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Mansion House">
+      <Latitude>51.51256</Latitude>
+      <Longitude>-0.09397</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Marble Arch">
+      <Latitude>51.513597</Latitude>
+      <Longitude>-0.15869195</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Marylebone">
+      <Latitude>51.52266</Latitude>
+      <Longitude>-0.162996</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Mile End">
+      <Latitude>51.525306</Latitude>
+      <Longitude>-0.033471</Longitude>
+      <Line>[Central, District, Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Mill Hill East">
+      <Latitude>51.60892</Latitude>
+      <Longitude>-0.20965</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Monument">
+      <Latitude>51.510165</Latitude>
+      <Longitude>-0.085991</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Moor Park">
+      <Latitude>51.62970512</Latitude>
+      <Longitude>-0.432070848</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Moorgate">
+      <Latitude>51.51817</Latitude>
+      <Longitude>-0.08859</Longitude>
+      <Line>[Northern, Circle, Hammersmith &amp; City, Metropolitan ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Morden">
+      <Latitude>51.40222413</Latitude>
+      <Longitude>-0.194599126</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Mornington Crescent">
+      <Latitude>51.53427</Latitude>
+      <Longitude>-0.13901</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Neasden">
+      <Latitude>51.55427</Latitude>
+      <Longitude>-0.25042</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Newbury Park">
+      <Latitude>51.57565</Latitude>
+      <Longitude>+0.08927</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="North Acton">
+      <Latitude>51.5237</Latitude>
+      <Longitude>-0.26019</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="North Ealing">
+      <Latitude>51.51807</Latitude>
+      <Longitude>-0.28838</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="North Greenwich">
+      <Latitude>51.50056</Latitude>
+      <Longitude>+0.00360</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="North Harrow">
+      <Latitude>51.58503612</Latitude>
+      <Longitude>-0.362595264</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="North Wembley">
+      <Latitude>51.56258091</Latitude>
+      <Longitude>-0.304072648</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Northfields">
+      <Latitude>51.499856</Latitude>
+      <Longitude>-0.313188</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Northolt">
+      <Latitude>51.548054</Latitude>
+      <Longitude>-0.368257</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Northwick Park">
+      <Latitude>51.57850117</Latitude>
+      <Longitude>-0.317857023</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Northwood">
+      <Latitude>51.61098984</Latitude>
+      <Longitude>-0.423584422</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Northwood Hills">
+      <Latitude>51.60043795</Latitude>
+      <Longitude>-0.408812575</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Notting Hill Gate">
+      <Latitude>51.509028</Latitude>
+      <Longitude>-0.1962847</Longitude>
+      <Line>[Central, Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Oakwood">
+      <Latitude>51.64739</Latitude>
+      <Longitude>-0.13192</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Old Street">
+      <Latitude>51.52618</Latitude>
+      <Longitude>-0.08751</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Osterley">
+      <Latitude>51.481569</Latitude>
+      <Longitude>-0.35196</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Oval">
+      <Latitude>51.48214</Latitude>
+      <Longitude>-0.11284</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Oxford Circus">
+      <Latitude>51.51517</Latitude>
+      <Longitude>-0.14119</Longitude>
+      <Line>[Bakerloo, Central, Victoria ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Paddington">
+      <Latitude>51.5151846554</Latitude>
+      <Longitude>-0.17553880792</Longitude>
+      <Line>[Circle, District, Hammersmith &amp; City ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Park Royal">
+      <Latitude>51.52671</Latitude>
+      <Longitude>-0.28417</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Parsons Green">
+      <Latitude>51.47488</Latitude>
+      <Longitude>-0.20205</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Perivale">
+      <Latitude>51.536673</Latitude>
+      <Longitude>-0.32391</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Piccadilly Circus">
+      <Latitude>51.51022</Latitude>
+      <Longitude>-0.13392</Longitude>
+      <Line>[Piccadilly, Bakerloo ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Pimlico">
+      <Latitude>51.489081</Latitude>
+      <Longitude>-0.133037</Longitude>
+      <Line>[Victoria ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Pinner">
+      <Latitude>51.59270271</Latitude>
+      <Longitude>-0.380539158</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Plaistow">
+      <Latitude>51.53122</Latitude>
+      <Longitude>0.01659</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Preston Road">
+      <Latitude>51.57229051</Latitude>
+      <Longitude>-0.295813875</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Putney Bridge">
+      <Latitude>51.46868</Latitude>
+      <Longitude>-0.2088141</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Queen's Park">
+      <Latitude>51.534179</Latitude>
+      <Longitude>-0.205257721</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Queensbury">
+      <Latitude>51.59437</Latitude>
+      <Longitude>-0.28655</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Queensway">
+      <Latitude>51.510484</Latitude>
+      <Longitude>-0.18705</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Ravenscourt Park">
+      <Latitude>51.49419</Latitude>
+      <Longitude>-0.2356</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Rayners Lane">
+      <Latitude>51.57534</Latitude>
+      <Longitude>-0.3724</Longitude>
+      <Line>[Metropolitan, Piccadilly ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Redbridge">
+      <Latitude>51.57618</Latitude>
+      <Longitude>0.04542</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Regent's Park">
+      <Latitude>51.52344</Latitude>
+      <Longitude>-0.14713</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Richmond">
+      <Latitude>51.46343247</Latitude>
+      <Longitude>-0.302033247</Longitude>
+      <Line>[District ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Rickmansworth">
+      <Latitude>51.64027898</Latitude>
+      <Longitude>-0.473521454</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>7</Zone>
+   </Station>
+   <Station id="Roding Valley">
+      <Latitude>51.61691</Latitude>
+      <Longitude>+0.04264</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Royal Oak">
+      <Latitude>51.519383</Latitude>
+      <Longitude>-0.187785</Longitude>
+      <Line>[Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Ruislip">
+      <Latitude>51.57146</Latitude>
+      <Longitude>-0.42157</Longitude>
+      <Line>[Metropolitan, Piccadilly ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Ruislip Gardens">
+      <Latitude>51.560711</Latitude>
+      <Longitude>-0.410587</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Ruislip Manor">
+      <Latitude>51.57349</Latitude>
+      <Longitude>-0.41185</Longitude>
+      <Line>[Metropolitan, Piccadilly ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Russell Square">
+      <Latitude>51.523243</Latitude>
+      <Longitude>-0.124336</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="St. James's Park">
+      <Latitude>51.49971</Latitude>
+      <Longitude>-0.13394</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Seven Sisters">
+      <Latitude>51.58318</Latitude>
+      <Longitude>-0.07495</Longitude>
+      <Line>[Victoria ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Shepherd's Bush">
+      <Latitude>51.50474</Latitude>
+      <Longitude>-0.21881</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Sloane Square">
+      <Latitude>51.49258474</Latitude>
+      <Longitude>-0.156090904</Longitude>
+      <Line>[Central, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Snaresbrook">
+      <Latitude>51.58002</Latitude>
+      <Longitude>+0.02133</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="South Ealing">
+      <Latitude>51.500801</Latitude>
+      <Longitude>-0.307856</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="South Harrow">
+      <Latitude>51.56461</Latitude>
+      <Longitude>-0.3521</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="South Kensington">
+      <Latitude>51.494066</Latitude>
+      <Longitude>-0.172791</Longitude>
+      <Line>[Circle, District, Piccadilly ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="South Kenton">
+      <Latitude>51.57044666</Latitude>
+      <Longitude>-0.308566354</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="South Ruislip">
+      <Latitude>51.556795</Latitude>
+      <Longitude>-0.398708</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="South Wimbledon">
+      <Latitude>51.41543048</Latitude>
+      <Longitude>-0.192262754</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="South Woodford">
+      <Latitude>51.59088</Latitude>
+      <Longitude>+0.02726</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Southfields">
+      <Latitude>51.444941</Latitude>
+      <Longitude>-0.206466</Longitude>
+      <Line>[District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Southgate">
+      <Latitude>51.6324</Latitude>
+      <Longitude>-0.12765</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Southwark">
+      <Latitude>51.50384</Latitude>
+      <Longitude>-0.10478</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="St. John's Wood">
+      <Latitude>51.53472</Latitude>
+      <Longitude>-0.17428</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="St. Paul's">
+      <Latitude>51.515285</Latitude>
+      <Longitude>-0.097598</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Stamford Brook">
+      <Latitude>51.494935</Latitude>
+      <Longitude>-0.24619</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Stanmore">
+      <Latitude>51.61895</Latitude>
+      <Longitude>-0.30241</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="Stepney Green">
+      <Latitude>51.521884</Latitude>
+      <Longitude>-0.046546</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Stockwell">
+      <Latitude>51.47224</Latitude>
+      <Longitude>-0.1227</Longitude>
+      <Line>[Northern, Victoria ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Stonebridge Park">
+      <Latitude>51.54402388</Latitude>
+      <Longitude>-0.275978856</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Stratford">
+      <Latitude>51.541208</Latitude>
+      <Longitude>-0.003776</Longitude>
+      <Line>[Central, Jubilee ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Sudbury Hill">
+      <Latitude>51.556998</Latitude>
+      <Longitude>-0.335949</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Sudbury Town">
+      <Latitude>51.55093</Latitude>
+      <Longitude>-0.31598</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Swiss Cottage">
+      <Latitude>51.54333</Latitude>
+      <Longitude>-0.17436</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Temple">
+      <Latitude>51.51114</Latitude>
+      <Longitude>-0.11341</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Theydon Bois">
+      <Latitude>51.67246</Latitude>
+      <Longitude>+0.10354</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Tooting Bec">
+      <Latitude>51.43578971</Latitude>
+      <Longitude>-0.159635693</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Tooting Broadway">
+      <Latitude>51.42780008</Latitude>
+      <Longitude>-0.167910811</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Tottenham Court Road">
+      <Latitude>51.5164</Latitude>
+      <Longitude>-0.13027</Longitude>
+      <Line>[Central, Northern ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Tottenham Hale">
+      <Latitude>51.588878</Latitude>
+      <Longitude>-0.059808</Longitude>
+      <Line>[Victoria ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Totteridge &amp; Whetstone">
+      <Latitude>51.63022</Latitude>
+      <Longitude>-0.17917</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Tower Hill">
+      <Latitude>51.50991</Latitude>
+      <Longitude>-0.076813</Longitude>
+      <Line>[Circle, District ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Tufnell Park">
+      <Latitude>51.55663</Latitude>
+      <Longitude>-0.13813</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Turnham Green">
+      <Latitude>51.495143</Latitude>
+      <Longitude>-0.25406</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Turnpike Lane">
+      <Latitude>51.59031</Latitude>
+      <Longitude>-0.10308</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Upminster">
+      <Latitude>51.55925</Latitude>
+      <Longitude>+0.25177</Longitude>
+      <Line>[District ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Upminster Bridge">
+      <Latitude>51.55847</Latitude>
+      <Longitude>+0.23509</Longitude>
+      <Line>[District ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Upney">
+      <Latitude>51.53824</Latitude>
+      <Longitude>+0.09998</Longitude>
+      <Line>[District ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Upton Park">
+      <Latitude>51.53514</Latitude>
+      <Longitude>0.03373</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Uxbridge">
+      <Latitude>51.54687</Latitude>
+      <Longitude>-0.47725</Longitude>
+      <Line>[Piccadilly, Metropolitan ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Vauxhall">
+      <Latitude>51.48603</Latitude>
+      <Longitude>-0.12369</Longitude>
+      <Line>[Victoria ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Victoria">
+      <Latitude>51.49662869</Latitude>
+      <Longitude>-0.14400853</Longitude>
+      <Line>[Circle, District, Victoria ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Walthamstow Central">
+      <Latitude>51.58293</Latitude>
+      <Longitude>-0.01996</Longitude>
+      <Line>[Victoria ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Wanstead">
+      <Latitude>51.57565</Latitude>
+      <Longitude>0.02864</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Warren Street">
+      <Latitude>51.5245</Latitude>
+      <Longitude>-0.1381</Longitude>
+      <Line>[Northern, Victoria ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Warwick Avenue">
+      <Latitude>51.52329728</Latitude>
+      <Longitude>-0.183777837</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Waterloo">
+      <Latitude>51.50322</Latitude>
+      <Longitude>-0.11328</Longitude>
+      <Line>[Bakerloo, Northern, Waterloo &amp; City ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="Watford">
+      <Latitude>51.65741058</Latitude>
+      <Longitude>-0.41745306</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>7</Zone>
+   </Station>
+   <Station id="Wembley Central">
+      <Latitude>51.55122817</Latitude>
+      <Longitude>-0.29577538</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Wembley Park">
+      <Latitude>51.56355598</Latitude>
+      <Longitude>-0.279770242</Longitude>
+      <Line>[Jubilee, Metropolitan ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="West Acton">
+      <Latitude>51.51818</Latitude>
+      <Longitude>-0.28064</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="West Brompton">
+      <Latitude>51.48681</Latitude>
+      <Longitude>-0.19475</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="West Finchley">
+      <Latitude>51.60922281219</Latitude>
+      <Longitude>-0.188711152265457</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="West Ham">
+      <Latitude>51.527917</Latitude>
+      <Longitude>+0.004141</Longitude>
+      <Line>[District, Hammersmith &amp; City, Jubilee ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="West Hampstead">
+      <Latitude>51.54678865</Latitude>
+      <Longitude>-0.191016868</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="West Harrow">
+      <Latitude>51.5795432</Latitude>
+      <Longitude>-0.353144584</Longitude>
+      <Line>[Metropolitan ]</Line>
+      <Zone>5</Zone>
+   </Station>
+   <Station id="West Kensington">
+      <Latitude>51.49085</Latitude>
+      <Longitude>-0.20532</Longitude>
+      <Line>[District ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="West Ruislip">
+      <Latitude>51.569324</Latitude>
+      <Longitude>-0.43674</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>6</Zone>
+   </Station>
+   <Station id="Westbourne Park">
+      <Latitude>51.520995</Latitude>
+      <Longitude>-0.201778</Longitude>
+      <Line>[Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Westminster">
+      <Latitude>51.50121</Latitude>
+      <Longitude>-0.12489</Longitude>
+      <Line>[Circle, District, Jubilee ]</Line>
+      <Zone>1</Zone>
+   </Station>
+   <Station id="White City">
+      <Latitude>51.512206</Latitude>
+      <Longitude>-0.224226</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Whitechapel">
+      <Latitude>51.51946</Latitude>
+      <Longitude>-0.05951</Longitude>
+      <Line>[District, Hammersmith &amp; City ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Willesden Green">
+      <Latitude>51.54919</Latitude>
+      <Longitude>-0.22106</Longitude>
+      <Line>[Jubilee ]</Line>
+      <Zone>2</Zone>
+   </Station>
+   <Station id="Willesden Junction">
+      <Latitude>51.53032031</Latitude>
+      <Longitude>-0.229378995</Longitude>
+      <Line>[Bakerloo ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Wimbledon">
+      <Latitude>51.422</Latitude>
+      <Longitude>-0.20544</Longitude>
+      <Line>[District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Wimbledon Park">
+      <Latitude>51.43391</Latitude>
+      <Longitude>-0.19864</Longitude>
+      <Line>[District ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Wood Green">
+      <Latitude>51.59709</Latitude>
+      <Longitude>-0.10939</Longitude>
+      <Line>[Piccadilly ]</Line>
+      <Zone>3</Zone>
+   </Station>
+   <Station id="Woodford">
+      <Latitude>51.60582</Latitude>
+      <Longitude>+0.03328</Longitude>
+      <Line>[Central ]</Line>
+      <Zone>4</Zone>
+   </Station>
+   <Station id="Woodside Park">
+      <Latitude>51.6181717295887</Latitude>
+      <Longitude>-0.185578887883903</Longitude>
+      <Line>[Northern ]</Line>
+      <Zone>4</Zone>
+   </Station>
+</document>
