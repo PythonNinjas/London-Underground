@@ -1,4 +1,4 @@
-read_stations():
-	“””
+def read_stations():
+	"""
 	Read the stations from xml into a ???.
-	“””
+	"""
