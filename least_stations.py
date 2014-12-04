@@ -1,3 +1,5 @@
+from read_stations import *
+
 def least_stations(start, end):
 	"""
 	Find the route with the least number of stations.
@@ -5,19 +7,33 @@ def least_stations(start, end):
 	#================================================================================
 	#Here we need to get the information for the other functions files in this area
 	#and save the information to variables
-	start_Station_Dic = station_One_Info[start]
-	end_Station_Dic = station_Two_Info[end]
-	print(start_Station_Dic[2])
-	print(end_Station_Dic[2])
+	start_Station_Dic = read_stations(start)
+	end_Station_Dic = read_stations(end)
+	#print(start_Station_Dic[start][2])
+	#print(end_Station_Dic[end][2])
+
+	various_Routes = {}
 	#================================================================================
-	#First check to see if they are on the same line
-	for line in start_Station_Dic[2]:
-		if line in end_Station_Dic[2]:
-			route_Line = Line[line]
+	#First check to see if they are on the same line (NEED TO CHECK FOR THE DIFFERENT PARTS IN A LINE)
+	for line in start_Station_Dic[start][2]:
+		#print(line)
+		if line in end_Station_Dic[end][2]:
+			
+			route_Line = Line_db[line]
 			start_Index = route_Line.index(start)
 			end_Index = route_Line.index(end)
-			station_Stops = end_Index = start_Index
+			station_Stops = end_Index - start_Index
 			print(station_Stops)
+	# #This will make sure to check the other parts of the line
+		
+
+
+
+
+
+
+
+
 
 
 
@@ -28,7 +44,7 @@ def least_stations(start, end):
 #This is a testing area for this function
 #===============================================================================================================================================================
 #These variables below are going to be the teseting database values
-Line = {"Bakerloo": ['Elephant & Castle', 'Lambeth North', 'Waterloo', 'Embankment', 'Charing Cross', 'Piccadilly Circus', 'Oxford Circus', "Regent's Park", 'Baker Street', 'Marylebone', 'Edgware Road', 'Paddington', 'Warwick Avenue', 'Maida Vale', 'Kilburn Park', "Queen's Park", 'Kensal Green', 'Willesden Junction', 'Harlesden', 'Stonebridge Park', 'Wembley Central', 'North Wembley', 'South Kenton', 'Kenton', 'Harrow & Wealdstone']}
+Line_db = {"Bakerloo": ['Elephant & Castle', 'Lambeth North', 'Waterloo', 'Embankment', 'Charing Cross', 'Piccadilly Circus', 'Oxford Circus', "Regent's Park", 'Baker Street', 'Marylebone', 'Edgware Road', 'Paddington', 'Warwick Avenue', 'Maida Vale', 'Kilburn Park', "Queen's Park", 'Kensal Green', 'Willesden Junction', 'Harlesden', 'Stonebridge Park', 'Wembley Central', 'North Wembley', 'South Kenton', 'Kenton', 'Harrow & Wealdstone']}
 station_One_Info = {'Waterloo': (51.50322, -0.11328, ['Bakerloo', 'Waterloo & City'], 1) }
 station_Two_Info = {'Charing Cross': (51.507108, -0.122963, ['Bakerloo', 'Northern' ], 1) }
 
@@ -37,4 +53,4 @@ Longtitudes_Bakerloo = [-0.10047, -0.11216, -0.11328, -0.12195, -0.122963, -0.13
 
 #print(station_Two_Info)
 #print(station_One_Info)
-least_stations("Waterloo", "Charing Cross")
+least_stations("Edgware Road", "Harlesden")

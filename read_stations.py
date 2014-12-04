@@ -14,11 +14,13 @@ def read_stations(station):
 			latitude = station_name.find('Latitude').text
 			longitude = station_name.find('Longitude').text
 			line = station_name.find('Line').text
+			line = line.replace("[","")
+			line = line.replace("]","")
+			line = line.replace(" ","")
+			line = line.split(',')
 			zone = station_name.find('Zone').text
-			station_dic = {station: [latitude, longitude, line, zone]}
+			station_dic = {station: (latitude, longitude, line, zone)}
 			
 			return station_dic
 
-
-if __name__ == "__main__":
-	
+#print(read_stations("Waterloo"))
