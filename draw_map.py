@@ -17,7 +17,7 @@ def draw_line(turtle, Line_List, Line_Dictionary):
 	for Station in Line_List:
 		X = Line_Dictionary[Station][1]*10000
 		Y = Line_Dictionary[Station][0]*10000 - 510000
-		print("X, Y is:", X, Y)
+
 		goto(turtle, X, Y)
 		dot(turtle, 5, "black")
 		write(turtle, Station, move = False, align = "left", font = ("Arial", 5, "normal"))
@@ -47,6 +47,7 @@ Line_Central_1_Dictionary = {"Epping": [51.69365, +0.11495], "Theydon Bois": [51
 # All_Lines_List = ["Bakerloo", "Central_1"]
 
 bob = Turtle()
-Map_line = draw_line(bob, Line_Bakerloo_List, Line_Bakerloo_Dictionary)
+Map_line_1 = draw_line(bob, Line_Bakerloo_List, Line_Bakerloo_Dictionary)
+Map_line_2 = draw_line(bob, Line_Central_1_List, Line_Central_1_Dictionary)
 # Map_all = draw_map(bob, All_Lines_List, All_Lines_with_Stations_Dictionary, All_Lines_with_Coordinates_Dictionary)
 mainloop()
