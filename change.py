@@ -7,6 +7,8 @@ def fares(Starting_Point, Ending_Point):
 	This function will find the fares for the trip and prompt the customer 
 	to enter money for the first time
 	"""
+	Travelcard = str(input("Do you have a travel card, Yes or No?")) 
+	print("Answers other than Yes are treated as No")
 	s = read_stations(Starting_Point)
 	e = read_stations(Ending_Point)
 	Zone_id_starting = int(s[Starting_Point][3])
@@ -16,10 +18,14 @@ def fares(Starting_Point, Ending_Point):
 	zone_start = "Zone" + str(Zone_id_starting)
 	zone_list = read_zones(zone_start)
 	fees = float(zone_list[zone_start][Zone_id_ending-1])
+	if Travelcard == "Yes":
+		getcontext().prec = 3
+		fees = Decimal(fees) * Decimal(0.7)
 	print("The Fare is", fees)
 	Amount_paid = float(input("Please enter coins or notes: "))
 	print("you entered", Amount_paid, "pound")
 	change(Amount_paid, fees)
+
 	
 def change(Money_inserted, Total_fees):
 	"""
