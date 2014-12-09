@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+
+<Zone id = "Zone1">
+	<Zone1> 1.20 </Zone1> 
+	<Zone2> 1.80 </Zone2>
+	<Zone3> 2.00 </Zone3>
+	<Zone4> 2.40 </Zone4>   
+	<Zone5> 2.80 </Zone5> 
+	<Zone6> 3.20 </Zone6> 
+	<Zone7> 3.50 </Zone7> 
+	<Zone8> 4.00 </Zone8>
+	<Zone9> 4.80 </Zone9>
+</Zone>
+
+<Zone id = "Zone2">
+	<Zone1> 1.80 </Zone1> 
+	<Zone2> 1.20 </Zone2>
+	<Zone3> 1.80 </Zone3>
+	<Zone4> 2.00 </Zone4>   
+	<Zone5> 2.40 </Zone5> 
+	<Zone6> 2.80 </Zone6> 
+	<Zone7> 3.20 </Zone7> 
+	<Zone8> 3.50 </Zone8>
+	<Zone9> 4.00 </Zone9>
+</Zone>
+
+<Zone id = "Zone3">
+	<Zone1> 2.00 </Zone1> 
+	<Zone2> 1.80 </Zone2>
+	<Zone3> 1.20 </Zone3>
+	<Zone4> 1.80 </Zone4>   
+	<Zone5> 2.00 </Zone5> 
+	<Zone6> 2.40 </Zone6> 
+	<Zone7> 2.80 </Zone7> 
+	<Zone8> 3.20 </Zone8>
+	<Zone9> 3.50 </Zone9>
+</Zone>
+
+<Zone id = "Zone4">
+	<Zone1> 2.40 </Zone1> 
+	<Zone2> 2.00 </Zone2>
+	<Zone3> 1.80 </Zone3>
+	<Zone4> 1.20 </Zone4>   
+	<Zone5> 1.80 </Zone5> 
+	<Zone6> 2.00 </Zone6> 
+	<Zone7> 2.40 </Zone7> 
+	<Zone8> 2.80 </Zone8>
+	<Zone9> 3.20 </Zone9>
+</Zone>
+
+<Zone id = "Zone5">
+	<Zone1> 2.80 </Zone1> 
+	<Zone2> 2.40 </Zone2>
+	<Zone3> 2.00 </Zone3>
+	<Zone4> 1.80 </Zone4>   
+	<Zone5> 1.20 </Zone5> 
+	<Zone6> 1.80 </Zone6> 
+	<Zone7> 2.00 </Zone7> 
+	<Zone8> 2.40 </Zone8>
+	<Zone9> 2.80 </Zone9>
+</Zone>
+
+<Zone id = "Zone6">
+	<Zone1> 3.20 </Zone1> 
+	<Zone2> 2.80 </Zone2>
+	<Zone3> 2.40 </Zone3>
+	<Zone4> 2.00 </Zone4>   
+	<Zone5> 1.80 </Zone5> 
+	<Zone6> 1.20 </Zone6> 
+	<Zone7> 1.80 </Zone7> 
+	<Zone8> 2.00 </Zone8>
+	<Zone9> 2.40 </Zone9>
+</Zone>
+
+<Zone id = "Zone7">
+	<Zone1> 3.50 </Zone1> 
+	<Zone2> 3.20 </Zone2>
+	<Zone3> 2.80 </Zone3>
+	<Zone4> 2.40 </Zone4>   
+	<Zone5> 2.00 </Zone5> 
+	<Zone6> 1.80 </Zone6> 
+	<Zone7> 1.20 </Zone7> 
+	<Zone8> 1.80 </Zone8>
+	<Zone9> 2.00 </Zone9>
+</Zone>
+
+<Zone id = "Zone8">
+	<Zone1> 4.00 </Zone1> 
+	<Zone2> 3.50 </Zone2>
+	<Zone3> 3.20 </Zone3>
+	<Zone4> 2.80 </Zone4>   
+	<Zone5> 2.40 </Zone5> 
+	<Zone6> 2.00 </Zone6> 
+	<Zone7> 1.80 </Zone7> 
+	<Zone8> 1.20 </Zone8>
+	<Zone9> 1.80 </Zone9>
+</Zone>
+
+<Zone id = "Zone9">
+	<Zone1> 4.80 </Zone1> 
+	<Zone2> 4.00 </Zone2>
+	<Zone3> 3.50 </Zone3>
+	<Zone4> 3.20 </Zone4>   
+	<Zone5> 2.80 </Zone5> 
+	<Zone6> 2.40 </Zone6> 
+	<Zone7> 2.00 </Zone7> 
+	<Zone8> 1.80 </Zone8>
+	<Zone9> 1.20 </Zone9>
+</Zone>
+ </document>
