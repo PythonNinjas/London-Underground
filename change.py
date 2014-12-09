@@ -1,22 +1,45 @@
-def changes(Dictionary, Starting_Point, Ending_Point, Amount_Paid):
-	Zone_id_starting = Dictionary[Starting_Point]
-	Zone_id_ending = Dictionary[Ending_Point]
-	print("Your Trip is from", Starting_Point, "to", Ending_Point)
-	fees = list_zone[Zone_id_starting - 1][Zone_id_ending - 1]
-	print("The Fare is", fees)
-	Changes = Amount_Paid - fees
-	print("You paid", Amount_Paid, "and your changes is", Changes)
-	
+from decimal import Decimal, getcontext
+from readstation import read_stations
+from readzone import read_zones
 
-Victoria_Line = {"Brixton": 2, "Stockwell": 2, "Vauxhall": 1, "Pimlico": 1, "Victoria": 1, "Green Park": 1, "Oxford Circus": 1, "Warren Street": 1, "Euston": 1, "King's Cross": 1, "Highbury & Islington": 2, "Finsbury Park": 2, "Seven Sisters": 3, "Totteham Hale": 3, "Blackhorse Road": 3, "Walthamstow": 3}
-zone1 = [1.2, 1.8, 2, 2.4, 2.8, 3.2, 3.5, 4, 4.8]
-zone2 = [1.8, 1.2, 1.8, 2, 2.4, 2.8, 3.2, 3.5, 4]
-zone3 = [2, 1.8, 1.2, 1.8, 2, 2.4, 2.8, 3.2, 3.5]
-zone4 = [2.4, 2, 1.8, 1.2, 1.8, 2, 2.4, 2.8, 3.2]
-zone5 = [2.8, 2.4, 2, 1.8, 1.2, 1.8, 2, 2.4, 2.8]
-zone6 = [3.2, 2.8, 2.4, 2, 1.8, 1.2, 1.8, 2, 2.4]
-zone7 = [3.5, 3.2, 2.8, 2.4, 2, 1.8, 1.2, 1.8, 2]
-zone8 = [4, 3.5, 3.2, 2.8, 2.4, 2, 1.8, 1.2, 1.8]
-zone9 = [4.8, 4, 3.5, 3.2, 2.8, 2.4, 2, 1.8, 1.2]
-list_zone = [zone1, zone2, zone3, zone4, zone5, zone6, zone7, zone8, zone9]
-Test = changes(Victoria_Line, "Seven Sisters", "Brixton", 5)
+def fares(Starting_Point, Ending_Point):
+	"""
+	This function will find the fares for the trip and prompt the customer 
+	to enter money for the first time
+	"""
+	s = read_stations(Starting_Point)
+	e = read_stations(Ending_Point)
+	Zone_id_starting = int(s[Starting_Point][3])
+	Zone_id_ending = int(e[Ending_Point][3])
+	print("Your Trip is from", Starting_Point, "to", Ending_Point)
+	print("It is from zone", Zone_id_starting, "to zone", Zone_id_ending)
+	zone_start = "Zone" + str(Zone_id_starting)
+	zone_list = read_zones(zone_start)
+	fees = float(zone_list[zone_start][Zone_id_ending-1])
+	print("The Fare is", fees)
+	Amount_paid = float(input("Please enter coins or notes: "))
+	print("you entered", Amount_paid, "pound")
+	change(Amount_paid, fees)
+	
+def change(Money_inserted, Total_fees):
+	"""
+	This function check if the money entered at the first time is enough
+	or not, if it is not, it will prompt the customer for more money untill
+	it is enough to cover the fares. Then it will give changes according to 
+	how much the customer paid and the fares are.
+	"""
+	Amount_paid_initial = Money_inserted
+	if Money_inserted < Total_fees:
+		getcontext().prec = 3
+		fee_remain = Decimal(Total_fees) - Decimal(Money_inserted)
+		print("You have not insert enough money, You need to insert", fee_remain, "pounds more")
+		Money_inserted = Money_inserted + float(input("Amount not enough Please enter more : "))
+		change(Money_inserted, Total_fees)
+	Total_money_inserted = Money_inserted
+	getcontext().prec = 3
+	Changes = Decimal(Total_money_inserted) - Decimal(Total_fees)
+	if Amount_paid_initial > Total_fees:
+		print("You paid", Total_money_inserted, "in total and your changes is", Changes)
+
+
+#fares("Acton Town", "Amersham")
