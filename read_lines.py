@@ -1,24 +1,29 @@
-""" This program prints the first station of the line passed in - Not finished """
+""" Returns dictionary of lines with stations - Not finished """
 
-import xml.dom.minidom
+import xml.etree.ElementTree as ET
 
-def read_lines(line_id):
+def read_lines():
 
-	dom = xml.dom.minidom.parse('lines.xml')
-	a = dom.getElementsByTagName("line")
-	#b = a[0].attributes["id"].value
+	""" Returns dictionary of stations """
 
-	for tag in a:
+	tree = ET.parse('dbs/lines.xml')
+	root = tree.getroot()
 
-		lineID = tag.attributes["id"].value
+	lines = {}  # Dictionary
 
-		if lineID == line_id:
+	for line in root.findall('line'):
 
-			print(tag.getElementsByTagName("station1")[0].firstChild.nodeValue)
+		line_name = line.get('id')
+
+		print(line_name)
+
+		for child in line.getchildren():
+
+			print(child.text)
 
 
 if __name__ == "__main__":
-	
-	read_lines("Circle")
+
+	read_lines()
 
 	
