@@ -1,4 +1,4 @@
-""" Returns dictionary of lines with stations - Not finished """
+""" Returns dictionary of stations with line as key. Not finished. Doesn't handle <part1> tags etc. """
 
 import xml.etree.ElementTree as ET
 
@@ -15,15 +15,20 @@ def read_lines():
 
 		line_name = line.get('id')
 
-		print(line_name)
+		stations = []
 
-		for child in line.getchildren():
+		for station in line.getchildren():
 
-			print(child.text)
+			stations.append(station.text)
+
+		lines[line_name] = stations
+
+	return lines
 
 
 if __name__ == "__main__":
 
-	read_lines()
+	d = read_lines()
+	print(d)
 
 	
