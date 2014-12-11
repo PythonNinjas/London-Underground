@@ -5,6 +5,7 @@ from least_stations import *
 
 def draw_line(turtle, Line):
 	"""
+	This fuction was writen by Marta...
 	Draws one line called "Line" on the map.
 	"""
 	hideturtle(turtle)			# To draw faster.
@@ -46,6 +47,7 @@ def draw_line(turtle, Line):
 
 def draw_map(Starting_Station, Ending_Station):
 	"""
+	This fuction was writen by Marta...
 	Draws a map of the London Underground.
 	"""
 	turtle = Turtle()

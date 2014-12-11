@@ -24,8 +24,8 @@ def read_stations(station):
 			# Make a dictionary to return to the user
 			station_dic = {station: (latitude, longitude, line, zone)}
 			
-			return station_dic
+			return True, station_dic
 	err_msg = "You have inputed an incorrect Station name, please check your spelling and also your spacing."
-	return err_msg
+	return False, err_msg
 #Testing area to make sure that the function can work on its own with given details
-#print(read_stations("Hammersmith&City"))
+#nprint(read_stations("Hammersmith&City"))

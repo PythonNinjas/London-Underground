@@ -1,9 +1,10 @@
 from decimal import Decimal, getcontext
-from read_stations import * 
-from read_zones import * 
+from read_stations import read_stations 
+from read_zones import read_zones 
 
 def fares(Starting_Point, Ending_Point):
 	"""
+	This function was written by Jason...
 	This function will find the fares for the trip and prompt the customer 
 	to enter money for the first time
 	"""
@@ -29,6 +30,7 @@ def fares(Starting_Point, Ending_Point):
 	
 def change(Money_inserted, Total_fees):
 	"""
+	This function was written by Jason...
 	This function check if the money entered at the first time is enough
 	or not, if it is not, it will prompt the customer for more money untill
 	it is enough to cover the fares. Then it will give changes according to 
@@ -48,4 +50,4 @@ def change(Money_inserted, Total_fees):
 		print("You paid", Total_money_inserted, "in total and your changes is", Changes)
 
 
-fares("Acton Town", "Amersham")
+#fares("Acton Town", "Amersham")
