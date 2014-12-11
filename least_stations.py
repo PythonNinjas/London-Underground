@@ -29,27 +29,34 @@ def least_stations(start, end):
 		#print(line)
 		if line in end_Station_Dic[end][2]:
 			
-			route_Line = Line_db[line]
-
-			#Using the line db, we check to check the indexs of the start and end station, and go through the inbetween stations to find the name of them
+			route_Line = read_lines()
+			route_Line = route_Line[line][0]
+			print(line)
+			print(route_Line)
 			
-			start_Index = route_Line.index(start)
-			end_Index = route_Line.index(end)
-			station_Stops = end_Index - start_Index
+			for fork in route_Line:
+
+				if start in fork and end in fork:
+
+					#Using the line db, we check to check the indexs of the start and end station, and go through the inbetween stations to find the name of them
+			
+					start_Index = route_Line.index(start)
+					end_Index = route_Line.index(end)
+					station_Stops = end_Index - start_Index
+					print(station_Stops)
 
 
-			#We add alls the stops in the list and return this to a dic to give the different option.
-			if station_Stops > 0:
-				route = route_Line[start_Index:end_Index]
-			else:
-				route = route_Line[start_Index:end_Index:-1]
+					#We add alls the stops in the list and return this to a dic to give the different option.
+					if station_Stops > 0:
+						route = route_Line[start_Index:end_Index]
+					else:
+						route = route_Line[start_Index:end_Index:-1]
 
-			print(route)
+					#print(station_Stops)
 
-			#print(station_Stops)
-
-			#various_Routes[station_Stops] = route
-		#return route
+					#various_Routes[station_Stops] = route
+					return route
+					print(route)
 
 	#--------------------------------------------------------------------------------
 	#-    [END]This Area with see if the stations are on the same line[END]         -
@@ -71,10 +78,12 @@ def least_stations(start, end):
 			start_line_index =- 1
 
 			next_station_dic = read_stations(current_Line[start_line_index])
-			
+			#This gets the lines for the next station
+			next_station_lines = next_station_dic[current_Line[start_line_index]][2]
+
+			#for stations in next_station_lines:
 
 
-		
 
 
 

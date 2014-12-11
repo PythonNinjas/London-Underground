@@ -14,6 +14,7 @@ def read_lines():
 	for line in root.findall('line'):
 
 		line_name = line.get('id')
+		no_forks = []
 		stations = []
 
 		for station in line.getchildren():
@@ -23,7 +24,20 @@ def read_lines():
 			else:
 				stations.append(station.text.replace("\"", ""))
 
-		lines[line_name] = stations
+		#Here we need to make sure that the lists/stations are represented in the same way. 
+		stations_string = str(stations)
+		#Here we are checking to see if the list of stations has forks in them, if not them we make them the same formate
+		char = "["
+		for char in stations_string:
+			count = stations_string.count(char)
+
+
+		if count < 2:
+			no_forks.append(stations)
+			lines[line_name] = no_forks
+		else:
+			lines[line_name] = stations
+
 
 	return lines
 
