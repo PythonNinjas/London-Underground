@@ -1,4 +1,5 @@
 from read_stations import *
+from read_lines import *
 
 def least_stations(start, end):
 	"""
@@ -11,19 +12,20 @@ def least_stations(start, end):
 	end_Station_Dic = read_stations(end)
 	#print(start_Station_Dic[start][2])
 	#print(end_Station_Dic[end][2])
+	
 	various_Routes = {}
 	
 	#================================================================================
 	#First check to see if they are on the same line (NEED TO CHECK FOR THE DIFFERENT PARTS IN A LINE)
+
 	#This will loop through the stations that the first station are on. From this we can work out the different routes to the end station
 
+	for line in start_Station_Dic[start][2]:
+		route = []
 
 	#--------------------------------------------------------------------------------
 	#-         This Area with see if the stations are on the same line              -
 	#--------------------------------------------------------------------------------
-	for line in start_Station_Dic[start][2]:
-		route = []
-
 		#print(line)
 		if line in end_Station_Dic[end][2]:
 			
@@ -47,7 +49,7 @@ def least_stations(start, end):
 			#print(station_Stops)
 
 			#various_Routes[station_Stops] = route
-	return route
+		#return route
 
 	#--------------------------------------------------------------------------------
 	#-    [END]This Area with see if the stations are on the same line[END]         -
@@ -57,8 +59,33 @@ def least_stations(start, end):
 	#--------------------------------------------------------------------------------
 	#-                                 Next area                                    -
 	#--------------------------------------------------------------------------------
-	
-	
+		
+		current_Line = Line_db[line]
+
+
+
+		start_line_index = current_Line.index(start)
+
+
+		while start_line_index > 0:
+			start_line_index =- 1
+
+			next_station_dic = read_stations(current_Line[start_line_index])
+			
+
+
+		
+
+
+
+
+		start_line_index = current_Line.index(start)
+			
+		while start_line_index < len(current_Line):
+			
+
+
+			start_line_index =+ 1
 
 
 
@@ -74,8 +101,8 @@ Line_db = {"Bakerloo": ['Elephant & Castle', 'Lambeth North', 'Waterloo', 'Emban
 station_One_Info = {'Waterloo': (51.50322, -0.11328, ['Bakerloo', 'Waterloo & City'], 1) }
 station_Two_Info = {'Charing Cross': (51.507108, -0.122963, ['Bakerloo', 'Northern' ], 1) }
 
-Latitudes_Bakerloo = [51.49467, 51.49894, 51.50322, 51.50717, 51.507108, 51.51022, 51.51517, 51.52344, 51.52265, 51.52266, 51.51956, 51.5151846554, 51.52329728, 51.52989409, 51.53495818, 51.534179, 51.53060655, 51.53032031, 51.53628278, 51.54402388, 51.55122817, 51.56258091, 51.57044666, 51.58173809, 51.59205973]
-Longtitudes_Bakerloo = [-0.10047, -0.11216, -0.11328, -0.12195, -0.122963, -0.13392, -0.14119, -0.14713, -0.15704, -0.162996, -0.169068, -0.17553880792, -0.183777837, -0.185888819, -0.193963023, -0.205257721, -0.224253545, -0.229378995, -0.257622488, -0.275978856, -0.29577538, -0.304072648, -0.308566354, -0.316870809, -0.334725352]
+#Latitudes_Bakerloo = [51.49467, 51.49894, 51.50322, 51.50717, 51.507108, 51.51022, 51.51517, 51.52344, 51.52265, 51.52266, 51.51956, 51.5151846554, 51.52329728, 51.52989409, 51.53495818, 51.534179, 51.53060655, 51.53032031, 51.53628278, 51.54402388, 51.55122817, 51.56258091, 51.57044666, 51.58173809, 51.59205973]
+#Longtitudes_Bakerloo = [-0.10047, -0.11216, -0.11328, -0.12195, -0.122963, -0.13392, -0.14119, -0.14713, -0.15704, -0.162996, -0.169068, -0.17553880792, -0.183777837, -0.185888819, -0.193963023, -0.205257721, -0.224253545, -0.229378995, -0.257622488, -0.275978856, -0.29577538, -0.304072648, -0.308566354, -0.316870809, -0.334725352]
 
 #print(station_Two_Info)
 #print(station_One_Info)
