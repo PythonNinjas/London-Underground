@@ -1,5 +1,6 @@
 def read_stations(station):
 	"""
+	This function was coded by Joel...
 	Read the stations from xml into a ???.
 	"""
 	import xml.etree.ElementTree as ET

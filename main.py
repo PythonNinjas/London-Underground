@@ -66,7 +66,15 @@ def main():
 	print("   Please wait while we now draw you the map of the London UnderGround with your route...")
 	print("")
 
-	draw_map(start, end)
+	try:
+		draw_map(start,end)
+	except:
+		print("")
+		print("Sorry we have hit a speed bump on the map drawing, please try that again later.")
+		print("")
+		print("____________________________________________________________________________________________")
+		print("")
+
 
 
 
