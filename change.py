@@ -1,6 +1,6 @@
 from decimal import Decimal, getcontext
-from readstation import read_stations
-from readzone import read_zones
+from read_stations import * 
+from read_zones import * 
 
 def fares(Starting_Point, Ending_Point):
 	"""
@@ -48,4 +48,4 @@ def change(Money_inserted, Total_fees):
 		print("You paid", Total_money_inserted, "in total and your changes is", Changes)
 
 
-#fares("Acton Town", "Amersham")
+fares("Acton Town", "Amersham")

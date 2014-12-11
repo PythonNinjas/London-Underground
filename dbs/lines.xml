@@ -255,7 +255,6 @@
       <station22>"Canada Water"</station22>
       <station23>"Canary Wharf"</station23>
       <station24>"North Greenwich"</station24>
-      <station25>"Canning Town"</station25>
       <station26>"West Ham"</station26>
       <station27>"Stratford"</station27>
    </line>
@@ -329,7 +328,7 @@
 		  <station27>"Warren Street"</station27>
 		  <station28>"Euston"</station28>
 		  <station29>"Mornington Crescent"</station29>
-		  <station30>"Camden town"</station30>
+		  <station30>"Camden Town"</station30>
 		  <station42>"Chalk Farm"</station42>
 		  <station43>"Belsize Park"</station43>
 		  <station44>"Hampstead"</station44>
@@ -351,8 +350,8 @@
 		  <station35>"Mill Hill East"</station35>
 		  <station36>"West Finchley"</station36>
 		  <station37>"Woodside Park"</station37>
-		  <station38>"Totteridge"</station38>
-		  <station39>"Hiigh Barnet"</station39>
+		  <station38>"Totteridge &amp; Whetstone"</station38>
+		  <station39>"High Barnet"</station39>
       </part2>
    </line>
    

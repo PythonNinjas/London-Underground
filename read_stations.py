@@ -28,4 +28,4 @@ def read_stations(station):
 	err_msg = "You have inputed an incorrect Station name, please check your spelling and also your spacing."
 	return err_msg
 #Testing area to make sure that the function can work on its own with given details
-print(read_stations("Hammersmith&City"))
+#print(read_stations("Hammersmith&City"))
