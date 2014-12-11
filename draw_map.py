@@ -1,6 +1,7 @@
 from exturtle import *
 from read_stations import *
 from read_lines import *
+from least_stations import *
 
 def draw_line(turtle, Line):
 	"""
@@ -24,26 +25,26 @@ def draw_line(turtle, Line):
 				
 		# Move the turtle to the starting point of each line:
 		penup(turtle)
-		Scale = 4500
+		Sc = 4500
 		X_adjustment = 500
 		Y_adjustment = -232000
-		X_start = Stations_Coordinates[Fork[0]][1]*Scale + X_adjustment		# Longitude is X!
-		Y_start = Stations_Coordinates[Fork[0]][0]*Scale + Y_adjustment		# Latitude is Y!
+		X_start = Stations_Coordinates[Fork[0]][1]*Sc + X_adjustment		# Longitude is X!
+		Y_start = Stations_Coordinates[Fork[0]][0]*Sc + Y_adjustment		# Latitude is Y!
 		goto(turtle, X_start, Y_start)
 		pendown(turtle)
 			
 		# Draw the fork:
 		for Station in Fork:
-			X = Stations_Coordinates[Station][1]*Scale + X_adjustment
-			Y = Stations_Coordinates[Station][0]*Scale + Y_adjustment
-			print("X is:", X, "Y is:", Y)
+			X = Stations_Coordinates[Station][1]*Sc + X_adjustment
+			Y = Stations_Coordinates[Station][0]*Sc + Y_adjustment
+			#print("X is:", X, "Y is:", Y)
 			goto(turtle, X, Y)
 			dot(turtle, 5, "black")
 			
 			# Display the name of each station:
 			write(turtle, Station, move = False, align = "left", font = ("Arial", 5, "normal"))
 
-def draw_map():
+def draw_map(Starting_Station, Ending_Station):
 	"""
 	Draws a map of the London Underground.
 	"""
@@ -75,9 +76,12 @@ def draw_map():
 		draw_line(turtle, Line)
 	
 	# Now draw the best route with another colour, in bold:
-	# pencolour(turtle, "#8BF512")
-	# pensize(turtle, 3)
-	# draw_line(???)
+	pencolor(turtle, "#8BF512")
+	pensize(turtle, 3)
+	check, Best_Route = least_stations(Starting_Station, Ending_Station)
+	Route = [Best_Route]
+	if check == True:
+		draw_line(turtle, Route)
 		
 	
 #########################################################################################################################################
@@ -92,5 +96,5 @@ if __name__ == "__main__":
 	
 	#bob = Turtle()
 
-	Map_all = draw_map()
+	Map_all = draw_map("Acton Town", "Bank")
 	mainloop()
