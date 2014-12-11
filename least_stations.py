@@ -149,12 +149,12 @@ def least_stations(start, end):
 				if various_Routes == "":
 					best_route = min(various_Routes, key=various_Routes.get)
 					best_route = various_Routes[best_route]
-					return(best_route)
+					return True, best_route
 				else:
 					break
 
 
-		return("There are no routes that can be calculated, please try again later")
+		return False, ("There are no routes that can be calculated, please try again later")
 
 
 
@@ -166,6 +166,7 @@ def least_stations(start, end):
 #===============================================================================================================================================================
 #This is a testing area for this function
 #===============================================================================================================================================================
+if __name__ == '__main__':
 #These variables below are going to be the teseting database values
 #Line_db = {"Bakerloo": ['Elephant & Castle', 'Lambeth North', 'Waterloo', 'Embankment', 'Charing Cross', 'Piccadilly Circus', 'Oxford Circus', "Regent's Park", 'Baker Street', 'Marylebone', 'Edgware Road', 'Paddington', 'Warwick Avenue', 'Maida Vale', 'Kilburn Park', "Queen's Park", 'Kensal Green', 'Willesden Junction', 'Harlesden', 'Stonebridge Park', 'Wembley Central', 'North Wembley', 'South Kenton', 'Kenton', 'Harrow & Wealdstone']}
 #station_One_Info = {'Waterloo': (51.50322, -0.11328, ['Bakerloo', 'Waterloo & City'], 1) }
@@ -176,5 +177,5 @@ def least_stations(start, end):
 
 #print(station_Two_Info)
 #print(station_One_Info)
-#print(least_stations("Watford", "West Finchley"))
-#print(same_line("Baker Street", "Elephant & Castle"))
+	print(least_stations("Watford", "Waterloo"))
+	#print(same_line("Baker Street", "Elephant & Castle"))
