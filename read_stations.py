@@ -18,6 +18,7 @@ def read_stations(station):
 			line = line.replace("[","")
 			line = line.replace("]","")
 			line = line.replace(" ","")
+			line = line.replace("&"," & ")
 			line = line.split(',')
 			zone = station_name.find('Zone').text
 			# Make a dictionary to return to the user
@@ -27,4 +28,4 @@ def read_stations(station):
 	err_msg = "You have inputed an incorrect Station name, please check your spelling and also your spacing."
 	return err_msg
 #Testing area to make sure that the function can work on its own with given details
-#print(read_stations("Waterloo"))
+print(read_stations("Hammersmith&City"))
