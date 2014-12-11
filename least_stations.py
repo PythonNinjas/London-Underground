@@ -5,6 +5,7 @@ from read_lines import *
 #--------------------------------------------------------------------------------
 def same_line(start,end):
 	"""
+	This function was written by Sai...
 	This is a check to see if the 2 stations are on the same line
 	"""
 	start_Station_Dic = read_stations(start)
@@ -44,6 +45,7 @@ def same_line(start,end):
 #--------------------------------------------------------------------------------
 def least_stations(start, end):
 	"""
+	This function was written by Sai...
 	Find the route with the least number of stations.
 	"""
 	#================================================================================
@@ -146,7 +148,7 @@ def least_stations(start, end):
 						various_Routes[overall_stops] = first_route + route
 
 					index_Position += 1
-				if various_Routes == "":
+				if various_Routes != "":
 					best_route = min(various_Routes, key=various_Routes.get)
 					best_route = various_Routes[best_route]
 					return True, best_route
@@ -177,5 +179,5 @@ if __name__ == '__main__':
 
 #print(station_Two_Info)
 #print(station_One_Info)
-	print(least_stations("Watford", "Waterloo"))
+	print(least_stations("Heathrow Terminal 4", "Bank"))
 	#print(same_line("Baker Street", "Elephant & Castle"))
