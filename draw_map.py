@@ -11,6 +11,9 @@ def draw_line(turtle, Line):
 	hideturtle(turtle)			# To draw faster.
 	screensize(30000, 30000)
 	
+	# Iterate over the list "Line", containing the different forks of each line
+	# in the format of separate lists. Line = [ [Fork_1], [Fork_2], ...], so
+	# therefore each Line has at least one Fork.
 	for Fork in Line:
 		
 		# Create a dictionary of the stations of this fork, with their coordinates in
@@ -95,8 +98,6 @@ if __name__ == "__main__":
 	
 	# Bakerloo_and_Central = {"Bakerloo": [["Elephant & Castle", "Lambeth North", "Waterloo", "Embankment", "Charing Cross", "Piccadilly Circus", "Oxford Circus", "Regent's Park", "Baker Street", "Marylebone", "Edgware Road", "Paddington", "Warwick Avenue", "Maida Vale", "Kilburn Park", "Queen's Park", "Kensal Green", "Willesden Junction", "Harlesden", "Stonebridge Park", "Wembley Central", "North Wembley", "South Kenton", "Kenton", "Harrow & Wealdstone"]], "Central": [["Epping", "Theydon Bois", "Debden", "Loughton", "Buckhurst Hill", "Woodford", "South Woodford", "Snaresbrook", "Leytonstone", "Leyton", "Stratford", "Mile End", "Bethnal Green", "Liverpool Street", "Bank", "St. Paul's", "Chancery Lane", "Holborn", "Tottenham Court Road", "Oxford Circus", "Bond Street", "Marble Arch", "Lancaster Gate", "Queensway", "Notting Hill Gate", "Holland Park", "Shepherd's Bush", "White City", "East Acton", "North Acton", "West Acton", "Ealing Broadway"], ["Hanger Lane", "Perivale", "Greenford", "Northolt", "South Ruislip", "Ruislip Gardens", "West Ruislip"], ["Woodford", "Roding Valley", "Grange Hill", "Chigwell", "Hainault", "Fairlop", "Barkingside", "Newbury Park", "Gants Hill", "Redbridge", "Wanstead", "Leystone"]]}
 	#All_Lines = read_lines()
-	
-	#bob = Turtle()
 
 	Map_all = draw_map("Acton Town", "Bank")
 	mainloop()
